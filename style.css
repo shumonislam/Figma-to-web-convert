@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.head-section{
+    background: #E02020;
+    height: 70px;
+}
+.Head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 42px;
+}
+.Head-wrapper img {
+    margin-top: 13px;
+}
+.Search-top{
+    padding-top: 14px;
+}
+.Search-btn {
+    width: 100%;
+    height: 35px;
+    background: #FFF;
+    padding: 4px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #E02020;
+    border: 1px solid #FFF;
+}
+.Search-btn input[placeholder]{
+    color: #FFF;
+}
+.Search-btn button img {
+    margin-top: 0.1rem;
+    background: #E02020;
+    border: 2px solid #E02020;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.Search-btn input{
+    margin-right: -10px;
+    border: 2px solid #E02020;
+    background: #E02020;
+}
+.Search-btn button {
+    height: 31px;
+    border: none;
+    background: #E02020;
+}
+.login button{
+    margin-top: 11px;
+    padding: 3px 13px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+}
+.log{
+    text-align: center;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 300;
+}
+.banner-section{
+    background-image: url(image/background\ icon-5.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.Car{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 170px
+}
+.Car h3{
+   font-size: 2.5rem;
+   color: #E02020;
+   margin-bottom: 1.5rem;
+}
+.Car p{
+    font-size: 1rem;
+    color: #FFF;
+}
+.Service-catagory{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background: #D9D9D9;
+    border-top: 2px solid #CDCDCD;
+}
+.cat{
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+.cat img{
+    width: 112px;
+    height: 65px;
+    margin-bottom: 8px;
+}
+.cat p{
+    font-size: 1rem;
+    color: #000;
+}
+.cat:hover{
+    border-bottom: 2px solid #E02020
+}
+.Schedule-title{
+    background: #FFFF;
+}
+.sched{
+    margin: 0 auto;
+    text-align: center;
+    padding: 65px 0;
+}
+.sched h3{
+    font-size: 2.5rem;
+    color: #000;
+    padding-bottom: 10px;
+}
+.sched p{
+    font-size: .9rem;
+    color: #A4A4A4;
+    line-height: 1.5rem;
+}
+.Schedule-service{
+    border: 1px solid #A4A4A4;
+    border-radius: 10px;
+    margin: 8px;
+    margin-bottom: 40px;
+}
+.Schedule-service h6{
+    text-align: right;
+    margin: 20px 20px 10px 0;
+    color: #A4A4A4;
+    font-size: .8rem;
+}
+.serv-detile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.detil-image img{
+    width: 300px;
+    height: 270px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.detile-one{
+    margin-left: 6px;
+    line-height: 2.5rem
+}
+.detile-one h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.detile-one ul li{
+    font-size: 1rem;
+    font-weight: 500;
+}
+ul li::before{
+    color: #E02020;
+    content: "\2022";
+    font-weight: 700;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em;
+}
+.Select-btn{
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.sele{
+    padding: 8px 12px;
+    font-size: .9rem;
+    font-weight: 400;
+    background: #E02020;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+}
+.card-one{
+    align-items: center;
+    text-align: center;
+}
+.card-one img{
+    width: 100px;
+    height: 100px;
+}
+.card-one h3{
+    font-size: 1.8rem;
+    color: #000;
+    padding: 0 5px;
+}
+.card-one p {
+    font-size: 1rem;
+    color: #CDCDCD;
+    padding: 8px 0;
+}
+.card{
+    border: 1px solid #A4A4A4;
+    border-radius: 15px;
+    padding-top: 38px;
+    margin: 0 auto;
+}
+.card-part{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin-top: 12px;
+    
+}
+.card-bottom{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.card-bottom {
+    background: #E02020;
+    padding: 23px 0px;
+    margin-bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+.card-bottom p{
+    font-size: 1rem;
+    padding-top: 33px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #E02020;
+    margin: 200px auto 0 auto;
+    padding: 20px;
+}
+.footer-bottom-logo img{
+    width: px;
+    height: 85px;
+}
+.footer-order-list ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.footer-order-list ul li a{
+    font-size: .9rem;
+    color: #FFF;
+}
+.footer-bottom{
+    padding: 28px 0;
+    background: #bd0c0c;
+}
+.footer-bottom p{
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 768px) {
+    .sched p {
+        font-size: 1.1rem;
+        color: #A4A4A4;
+        line-height: 1.5rem;
+    }
+    .sched h3 {
+        font-size: 2.2rem;
+        color: #000;
+        padding-bottom: 10px;
+    }
+    .Service-catagory{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: #D9D9D9;
+        border-top: 2px solid #CDCDCD;
+    }
+    .serv-detile{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+    }
+    .Schedule-service h6 {
+        font-size: .9rem;
+    }
+    .detil-image img {
+        width: 258px;
+        height: 230px;
+        margin-left: 16px;
+        border-radius: 13px;
+    }
+    .detile-one {
+        margin-left: 30px;
+        line-height: 2rem;
+    }
+    .detile-one ul li {
+        font-size: .9rem;
+        font-weight: 300;
+    }
+    .card-part{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .Service-catagory{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+.serv-detile{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+}
+.detil-image img {
+    margin-left: 67px;
+    margin-top: 12px;
+}
+.detile-one {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.card-part{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    justify-content: center;
+    margin-top: 12px;
+}
+.footer-order-list ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 8px;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+.sched p {
+    padding: 0 10px;
+}
+}
